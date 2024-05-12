@@ -74,8 +74,8 @@ for (const {preview, original, description} of images) {
   gallery.insertAdjacentHTML('beforeend', elementsMarkup);
 }
 
-// gallery = new SimpleLightbox('.gallery', {
-//   captionsData: 'alt',
-//   captionDelay: 250,
-// });
+let galleryModal = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
 

@@ -5,7 +5,7 @@
   list-style-type: none;
   max-width: 1440px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 24px auto;
   padding: 0;
 }
 
@@ -13,4 +13,17 @@
   width: 360px;
   height: 200px;
   object-fit: cover;
+}
+
+.simple-lightbox {
+  background-color: rgba(46, 47, 66, 0.80);
+}
+
+.simple-lightbox button.sl-close {
+  color: #FFFFFF;
+}
+
+.simple-lightbox .sl-navigation button.sl-prev,
+.simple-lightbox .sl-navigation button.sl-next {
+  color: #FFFFFF;
 }
