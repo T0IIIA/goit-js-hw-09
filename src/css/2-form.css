@@ -1,7 +1,7 @@
 .feedback-form {
   display: flex;
   flex-direction: column;
-  width: 408px;
+  max-width: 408px;
   gap: 8px;
   padding: 24px;
 }

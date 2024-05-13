@@ -15,6 +15,10 @@
   object-fit: cover;
 }
 
+.gallery-image:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 1, 0.5)
+}
+
 .simple-lightbox {
   background-color: rgba(46, 47, 66, 0.80);
 }
