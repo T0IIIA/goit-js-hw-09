@@ -59,20 +59,21 @@ preview:
 
 const gallery = document.querySelector('.gallery');
 
+let elementsMarkup = '';
 for (const {preview, original, description} of images) {
-  const elementsMarkup=
+  elementsMarkup +=
     `<li class="gallery-item">
-      <a class="gallery-link" href=${original}>
+      <a class="gallery-link" href="${original}">
         <img
           class="gallery-image"
-          src=${preview}
-          alt=${description}
+          src="${preview}"
+          alt="${description}"
           />
       </a>
     </li>`;
-
-  gallery.insertAdjacentHTML('beforeend', elementsMarkup);
 }
+
+gallery.insertAdjacentHTML('beforeend', elementsMarkup);
 
 let galleryModal = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
