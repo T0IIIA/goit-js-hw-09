@@ -19,11 +19,9 @@
   background-color: rgba(46, 47, 66, 0.80);
 }
 
-.simple-lightbox button.sl-close {
-  color: #FFFFFF;
-}
-
+.simple-lightbox button.sl-close,
+.sl-wrapper.simple-lightbox .sl-counter,
 .simple-lightbox .sl-navigation button.sl-prev,
-.simple-lightbox .sl-navigation button.sl-next {
+.simple-lightbox .sl-navigation button.sl-next{
   color: #FFFFFF;
 }
